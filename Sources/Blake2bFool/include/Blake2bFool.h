@@ -7,11 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol SS58AddressFactoryProtocol
+@protocol Blake2bFoolProtocol
 + (NSData*)Blake2b:(NSData *)data;
 + (NSData*)Blake2b:(int)length data:(NSData *)data;
 @end
 
-@interface Blake2bFool : NSObject
+@interface Blake2bFool : NSObject<Blake2bFoolProtocol>
 
 @end

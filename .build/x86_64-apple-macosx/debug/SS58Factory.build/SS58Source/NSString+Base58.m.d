@@ -1,6 +1,6 @@
 dependencies: \
   /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSString+Base58.m \
-  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSString+Base58.h \
+  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include/NSString+Base58.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/module.modulemap \

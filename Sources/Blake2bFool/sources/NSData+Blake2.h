@@ -6,12 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSData (Blake2)
-- (NSData*)Blake2b;
-- (NSData*)Blake2b:(int)length;
+- (NSData *)Blake2b;
+- (NSData *)Blake2b:(int)length;
 @end
-
-NS_ASSUME_NONNULL_END

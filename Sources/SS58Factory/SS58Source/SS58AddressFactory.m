@@ -6,7 +6,7 @@
 //
 
 #import "SS58AddressFactory.h"
-#import "NSData+Blake2.h"
+#import "Blake2bFool.h"
 #import "NSString+Base58.h"
 
 static NSString * const PREFIX = @"SS58PRE";
@@ -17,7 +17,7 @@ static const UInt8 ACCOUNT_ID_LENGTH = 32;
 
 @implementation SS58AddressFactory
 
-- (nullable NSString*)addressFromAccountId:(NSData* _Nonnull)accountId
+- (NSString*)addressFromAccountId:(NSData* _Nonnull)accountId
                                       type:(UInt16)type
                                      error:(NSError*_Nullable*_Nullable)error {
 
@@ -36,7 +36,7 @@ static const UInt8 ACCOUNT_ID_LENGTH = 32;
     }
 
     if ([accountId length] != ACCOUNT_ID_LENGTH) {
-        accountId = [accountId Blake2b:ACCOUNT_ID_LENGTH];
+        accountId = [Blake2bFool Blake2b:ACCOUNT_ID_LENGTH data:accountId];
 
         if (!accountId) {
             return nil;
@@ -49,7 +49,7 @@ static const UInt8 ACCOUNT_ID_LENGTH = 32;
     [checksumData appendData:[PREFIX dataUsingEncoding:NSUTF8StringEncoding]];
     [checksumData appendData:addressData];
 
-    NSData *hashed = [checksumData Blake2b];
+    NSData *hashed = [Blake2bFool Blake2b:checksumData];
 
     if (!hashed) {
         return nil;
@@ -109,7 +109,7 @@ static const UInt8 ACCOUNT_ID_LENGTH = 32;
     [checksumMessage appendData:[PREFIX dataUsingEncoding:NSUTF8StringEncoding]];
     [checksumMessage appendData:addressData];
 
-    NSData *checksum = [[checksumMessage Blake2b] subdataWithRange:NSMakeRange(0, CHECKSUM_LENGTH)];
+    NSData *checksum = [[Blake2bFool Blake2b:checksumMessage] subdataWithRange:NSMakeRange(0, CHECKSUM_LENGTH)];
 
     if (!checksum) {
         return nil;

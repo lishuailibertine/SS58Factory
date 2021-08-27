@@ -9,14 +9,14 @@
 #import "blake2b.h"
 
 @implementation NSData (Blake2)
-- (NSData*)Blake2b{
+- (NSData *)Blake2b{
     NSMutableData *d = [NSMutableData dataWithLength:BLAKE2B_DIGEST_LENGTH];
     blake2b(self.bytes, self.length, d.mutableBytes, d.length);
-    return d;
+    return (NSData *)d;
 }
-- (NSData*)Blake2b:(int)length{
+- (NSData *)Blake2b:(int)length{
     NSMutableData *d = [NSMutableData dataWithLength:length];
     blake2b(self.bytes, self.length, d.mutableBytes, d.length);
-    return d;
+    return (NSData *)d;
 }
 @end

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/SS58AddressFactory.m \
-  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include/SS58AddressFactory.h \
+  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/sources/Blake2bFool.m \
+  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/include/Blake2bFool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/module.modulemap \
@@ -1312,6 +1312,4 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUserScriptTask.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/FoundationLegacySwiftCompatibility.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSDebug.h \
-  /Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/Blake2bFool.build/module.modulemap \
-  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/include/Blake2bFool.h \
-  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include/NSString+Base58.h
+  /Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/sources/NSData+Blake2.h

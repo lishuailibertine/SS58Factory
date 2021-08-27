@@ -9,6 +9,7 @@
 #import "NSData+Blake2.h"
 
 @implementation Blake2bFool
+
 + (NSData*)Blake2b:(NSData *)data{
     return [data Blake2b];
 }

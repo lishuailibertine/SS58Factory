@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "SS58Factory",
             targets: ["SS58Factory"]),
+        .library(name: "Blake2bFool", targets: ["Blake2bFool"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +21,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SS58Factory",
-            dependencies: []),
+            dependencies: ["Blake2bFool"]),
+        .target(name: "Blake2bFool"
+            ),
         .testTarget(
             name: "SS58FactoryTests",
             dependencies: ["SS58Factory"]),

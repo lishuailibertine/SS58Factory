@@ -1,0 +1,4 @@
+module Blake2bFool {
+    umbrella header "/Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/include/Blake2bFool.h"
+    export *
+}
