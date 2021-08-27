@@ -6,7 +6,7 @@ final class SS58FactoryTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        SS58AddressFactory()
+//        SS58AddressFactory()
         let _data = Data()
 //        _data.
     }
