@@ -2,6 +2,7 @@ dependencies: \
   /Users/lishuai/Documents/GitHub/SS58Factory/Sources/Blake2bFool/sources/memzero.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include/module.modulemap \
+  /Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/Blake2bFool.build/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/cdefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_symbol_aliasing.h \
