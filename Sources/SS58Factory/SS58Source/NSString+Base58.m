@@ -1,6 +1,6 @@
 
 #import "NSString+Base58.h"
-#import "base58.h"
+#include "base58.h"
 #import "NSMutableData+Extend.h"
 #import <CommonCrypto/CommonCrypto.h>
 

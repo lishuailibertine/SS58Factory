@@ -7,6 +7,8 @@ final class SS58FactoryTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         SS58AddressFactory()
+        let _data = Data()
+//        _data.
     }
 
     static var allTests = [

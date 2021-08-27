@@ -1,4 +1,4 @@
 module SS58Factory {
-    umbrella "/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include"
+    umbrella header "/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include/SS58Factory.h"
     export *
 }
