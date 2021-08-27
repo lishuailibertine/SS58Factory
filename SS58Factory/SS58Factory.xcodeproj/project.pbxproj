@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,15 +15,7 @@
 		8267906E26D88A9100AE5C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8267906C26D88A9100AE5C4A /* LaunchScreen.storyboard */; };
 		8267907926D88A9100AE5C4A /* SS58FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267907826D88A9100AE5C4A /* SS58FactoryTests.swift */; };
 		8267908426D88A9100AE5C4A /* SS58FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8267908326D88A9100AE5C4A /* SS58FactoryUITests.swift */; };
-		8267909A26D88AC500AE5C4A /* SS58AddressFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267909826D88AC500AE5C4A /* SS58AddressFactory.m */; };
-		826790A026D88BF500AE5C4A /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 8267909F26D88BF500AE5C4A /* blake2b.c */; };
-		826790AA26D88C1D00AE5C4A /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 826790A926D88C1D00AE5C4A /* memzero.c */; };
-		826790C026D88CEF00AE5C4A /* NSData+Blake2.m in Sources */ = {isa = PBXBuildFile; fileRef = 826790BF26D88CEF00AE5C4A /* NSData+Blake2.m */; };
-		826790CC26D88E6200AE5C4A /* NSString+Base58.m in Sources */ = {isa = PBXBuildFile; fileRef = 826790CA26D88E6200AE5C4A /* NSString+Base58.m */; };
-		826790D226D88E8600AE5C4A /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 826790D126D88E8600AE5C4A /* base58.c */; };
-		826790D826D88EA300AE5C4A /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 826790D726D88EA300AE5C4A /* sha2.c */; };
-		826790E226D88EC000AE5C4A /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 826790E026D88EC000AE5C4A /* ripemd160.c */; };
-		826790EB26D88FDE00AE5C4A /* NSMutableData+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 826790EA26D88FDE00AE5C4A /* NSMutableData+Extend.m */; };
+		82F654BB26D8998D005498EE /* SS58Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 82F654BA26D8998D005498EE /* SS58Factory */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,26 +51,6 @@
 		8267908326D88A9100AE5C4A /* SS58FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SS58FactoryUITests.swift; sourceTree = "<group>"; };
 		8267908526D88A9100AE5C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8267909726D88AC400AE5C4A /* SS58Factory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SS58Factory-Bridging-Header.h"; sourceTree = "<group>"; };
-		8267909826D88AC500AE5C4A /* SS58AddressFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SS58AddressFactory.m; sourceTree = "<group>"; };
-		8267909926D88AC500AE5C4A /* SS58AddressFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS58AddressFactory.h; sourceTree = "<group>"; };
-		8267909E26D88BEE00AE5C4A /* blake2b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blake2b.h; sourceTree = "<group>"; };
-		8267909F26D88BF500AE5C4A /* blake2b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake2b.c; sourceTree = "<group>"; };
-		826790A426D88BFA00AE5C4A /* blake2_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blake2_common.h; sourceTree = "<group>"; };
-		826790A826D88C1D00AE5C4A /* memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memzero.h; sourceTree = "<group>"; };
-		826790A926D88C1D00AE5C4A /* memzero.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
-		826790BE26D88CEF00AE5C4A /* NSData+Blake2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Blake2.h"; sourceTree = "<group>"; };
-		826790BF26D88CEF00AE5C4A /* NSData+Blake2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Blake2.m"; sourceTree = "<group>"; };
-		826790CA26D88E6200AE5C4A /* NSString+Base58.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base58.m"; sourceTree = "<group>"; };
-		826790CB26D88E6200AE5C4A /* NSString+Base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base58.h"; sourceTree = "<group>"; };
-		826790D026D88E8600AE5C4A /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
-		826790D126D88E8600AE5C4A /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		826790D626D88EA300AE5C4A /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
-		826790D726D88EA300AE5C4A /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
-		826790DC26D88EB200AE5C4A /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
-		826790E026D88EC000AE5C4A /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
-		826790E126D88EC000AE5C4A /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
-		826790E926D88FDE00AE5C4A /* NSMutableData+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+Extend.h"; sourceTree = "<group>"; };
-		826790EA26D88FDE00AE5C4A /* NSMutableData+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+Extend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F654BB26D8998D005498EE /* SS58Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +102,6 @@
 		8267906026D88A8E00AE5C4A /* SS58Factory */ = {
 			isa = PBXGroup;
 			children = (
-				826790F026D8935E00AE5C4A /* SS58Factory */,
-				826790EF26D8933500AE5C4A /* SS58Source */,
 				8267906126D88A8E00AE5C4A /* AppDelegate.swift */,
 				8267906326D88A8E00AE5C4A /* SceneDelegate.swift */,
 				8267906526D88A8E00AE5C4A /* ViewController.swift */,
@@ -161,40 +132,6 @@
 			path = SS58FactoryUITests;
 			sourceTree = "<group>";
 		};
-		826790EF26D8933500AE5C4A /* SS58Source */ = {
-			isa = PBXGroup;
-			children = (
-				8267909E26D88BEE00AE5C4A /* blake2b.h */,
-				8267909F26D88BF500AE5C4A /* blake2b.c */,
-				826790D126D88E8600AE5C4A /* base58.c */,
-				826790D026D88E8600AE5C4A /* base58.h */,
-				826790D726D88EA300AE5C4A /* sha2.c */,
-				826790D626D88EA300AE5C4A /* sha2.h */,
-				826790E026D88EC000AE5C4A /* ripemd160.c */,
-				826790E126D88EC000AE5C4A /* ripemd160.h */,
-				826790DC26D88EB200AE5C4A /* macros.h */,
-				826790A426D88BFA00AE5C4A /* blake2_common.h */,
-				826790A926D88C1D00AE5C4A /* memzero.c */,
-				826790A826D88C1D00AE5C4A /* memzero.h */,
-			);
-			path = SS58Source;
-			sourceTree = "<group>";
-		};
-		826790F026D8935E00AE5C4A /* SS58Factory */ = {
-			isa = PBXGroup;
-			children = (
-				8267909926D88AC500AE5C4A /* SS58AddressFactory.h */,
-				8267909826D88AC500AE5C4A /* SS58AddressFactory.m */,
-				826790CB26D88E6200AE5C4A /* NSString+Base58.h */,
-				826790CA26D88E6200AE5C4A /* NSString+Base58.m */,
-				826790E926D88FDE00AE5C4A /* NSMutableData+Extend.h */,
-				826790EA26D88FDE00AE5C4A /* NSMutableData+Extend.m */,
-				826790BE26D88CEF00AE5C4A /* NSData+Blake2.h */,
-				826790BF26D88CEF00AE5C4A /* NSData+Blake2.m */,
-			);
-			path = SS58Factory;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +148,9 @@
 			dependencies = (
 			);
 			name = SS58Factory;
+			packageProductDependencies = (
+				82F654BA26D8998D005498EE /* SS58Factory */,
+			);
 			productName = SS58Factory;
 			productReference = 8267905E26D88A8E00AE5C4A /* SS58Factory.app */;
 			productType = "com.apple.product-type.application";
@@ -283,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 8267905526D88A8E00AE5C4A;
+			packageReferences = (
+				82F654B926D8998D005498EE /* XCRemoteSwiftPackageReference "SS58Factory" */,
+			);
 			productRefGroup = 8267905F26D88A8E00AE5C4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,17 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826790E226D88EC000AE5C4A /* ripemd160.c in Sources */,
-				826790EB26D88FDE00AE5C4A /* NSMutableData+Extend.m in Sources */,
-				826790D826D88EA300AE5C4A /* sha2.c in Sources */,
-				826790D226D88E8600AE5C4A /* base58.c in Sources */,
-				8267909A26D88AC500AE5C4A /* SS58AddressFactory.m in Sources */,
 				8267906626D88A8E00AE5C4A /* ViewController.swift in Sources */,
-				826790CC26D88E6200AE5C4A /* NSString+Base58.m in Sources */,
 				8267906226D88A8E00AE5C4A /* AppDelegate.swift in Sources */,
-				826790C026D88CEF00AE5C4A /* NSData+Blake2.m in Sources */,
-				826790AA26D88C1D00AE5C4A /* memzero.c in Sources */,
-				826790A026D88BF500AE5C4A /* blake2b.c in Sources */,
 				8267906426D88A8E00AE5C4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -677,6 +611,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82F654B926D8998D005498EE /* XCRemoteSwiftPackageReference "SS58Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lishuailibertine/SS58Factory";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82F654BA26D8998D005498EE /* SS58Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82F654B926D8998D005498EE /* XCRemoteSwiftPackageReference "SS58Factory" */;
+			productName = SS58Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8267905626D88A8E00AE5C4A /* Project object */;
 }
