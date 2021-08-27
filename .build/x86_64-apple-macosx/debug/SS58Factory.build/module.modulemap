@@ -1,0 +1,4 @@
+module SS58Factory {
+    umbrella "/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include"
+    export *
+}

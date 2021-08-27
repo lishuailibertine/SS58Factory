@@ -1,0 +1,134 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SS58Factory-debug.module": ["<SS58Factory-debug.module>"]
+  "SS58FactoryPackageTests-debug.test": ["<SS58FactoryPackageTests-debug.test>"]
+  "SS58FactoryTests-debug.module": ["<SS58FactoryTests-debug.module>"]
+  "main": ["<SS58Factory-debug.module>"]
+  "test": ["<SS58Factory-debug.module>","<SS58FactoryPackageTests-debug.test>","<SS58FactoryTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/":
+    is-directory-structure: true
+  "/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/":
+    is-directory-structure: true
+commands:
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/base58.c"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o"]
+    description: "Compiling SS58Factory SS58Fool/base58.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/base58.c","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/blake2b.c"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o"]
+    description: "Compiling SS58Factory SS58Fool/blake2b.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/blake2b.c","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/memzero.c"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o"]
+    description: "Compiling SS58Factory SS58Fool/memzero.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/memzero.c","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/ripemd160.c"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o"]
+    description: "Compiling SS58Factory SS58Fool/ripemd160.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/ripemd160.c","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/sha2.c"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o"]
+    description: "Compiling SS58Factory SS58Fool/sha2.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Fool/sha2.c","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSData+Blake2.m"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o"]
+    description: "Compiling SS58Factory SS58Source/NSData+Blake2.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSData+Blake2.m","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSMutableData+Extend.m"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o"]
+    description: "Compiling SS58Factory SS58Source/NSMutableData+Extend.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSMutableData+Extend.m","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSString+Base58.m"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o"]
+    description: "Compiling SS58Factory SS58Source/NSString+Base58.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/NSString+Base58.m","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.d"
+
+  "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o":
+    tool: clang
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/SS58AddressFactory.m"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o"]
+    description: "Compiling SS58Factory SS58Source/SS58AddressFactory.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=SS58Factory","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-fmodules-cache-path=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.d","-c","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/SS58Source/SS58AddressFactory.m","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o"]
+    deps: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.d"
+
+  "<SS58Factory-debug.module>":
+    tool: phony
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o"]
+    outputs: ["<SS58Factory-debug.module>"]
+
+  "<SS58FactoryPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryPackageTests.xctest/Contents/MacOS/SS58FactoryPackageTests"]
+    outputs: ["<SS58FactoryPackageTests-debug.test>"]
+
+  "<SS58FactoryTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/SS58FactoryTests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/XCTestManifests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.swiftmodule"]
+    outputs: ["<SS58FactoryTests-debug.module>"]
+
+  "C.SS58FactoryPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/SS58FactoryTests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryPackageTests.xctest/Contents/MacOS/SS58FactoryPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/SS58FactoryPackageTests.xctest/Contents/MacOS/SS58FactoryPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug","-o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryPackageTests.xctest/Contents/MacOS/SS58FactoryPackageTests","-module-name","SS58FactoryPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.SS58FactoryTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/SS58FactoryTests.swift","/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/XCTestManifests.swift","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/base58.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/blake2b.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/memzero.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/ripemd160.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Fool/sha2.c.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSData+Blake2.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSMutableData+Extend.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/NSString+Base58.m.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/SS58Source/SS58AddressFactory.m.o"]
+    outputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/SS58FactoryTests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/XCTestManifests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SS58FactoryTests"
+    module-output-path: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.swiftmodule"
+    import-paths: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build"
+    objects: ["/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/SS58FactoryTests.swift.o","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58FactoryTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.15","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/SS58Factory.build/module.modulemap","-I","/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/include","-module-cache-path","/Users/lishuai/Documents/GitHub/SS58Factory/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/SS58FactoryTests.swift","/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/lishuai/Documents/GitHub/SS58Factory/Sources/SS58Factory/","/Users/lishuai/Documents/GitHub/SS58Factory/Tests/SS58FactoryTests/","/Users/lishuai/Documents/GitHub/SS58Factory/Package.swift","/Users/lishuai/Documents/GitHub/SS58Factory/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

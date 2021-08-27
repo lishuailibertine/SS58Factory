@@ -1,0 +1,18 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/lishuai\/Documents\/GitHub\/SS58Factory\/.build\/x86_64-apple-macosx\/debug\/SS58FactoryPackageTests.xctest\/Contents\/MacOS\/SS58FactoryPackageTests",
+      "packageName" : "SS58Factory",
+      "productName" : "SS58FactoryPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftTargetMap" : {
+    "C.SS58FactoryTests-debug.module" : "SS58FactoryTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
