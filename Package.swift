@@ -14,6 +14,8 @@ let package = Package(
             targets: ["Blake2bFool"])
     ],
     dependencies: [
+        .package(url: "https://github.com/tesseract-one/UncommonCrypto", from: "0.1.3"),
+        .package(url: "https://github.com/tesseract-one/Blake2.swift", from: "0.1.2")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
@@ -23,10 +25,8 @@ let package = Package(
         .target(
             name: "SS58Factory",
             dependencies: ["Blake2bFool"]),
-        .target(name: "Blake2bFool"
+        .target(name: "Blake2bFool",
+                dependencies: ["UncommonCrypto","Blake2"]
             ),
-        .testTarget(
-            name: "SS58FactoryTests",
-            dependencies: ["SS58Factory"]),
     ]
 )
