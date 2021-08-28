@@ -24,7 +24,8 @@ let package = Package(
         .target(
             name: "SS58Factory",
             dependencies: ["Blake2bFool"]),
-        .target(name: "Blake2bFool"
+        .target(name: "Blake2bFool",
+                dependencies: ["Blake2","CBlake2"]
             ),
     ]
 )
