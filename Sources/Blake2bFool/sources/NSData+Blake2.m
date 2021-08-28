@@ -6,7 +6,7 @@
 //
 
 #import "NSData+Blake2.h"
-#include "CBlake2.h"
+@import  CBlake2
 
 #define BLAKE2B_DIGEST_LENGTH  64
 
