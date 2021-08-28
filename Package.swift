@@ -14,10 +14,8 @@ let package = Package(
             targets: ["Blake2bFool"])
     ],
     dependencies: [
-        .package(url: "https://github.com/tesseract-one/Blake2.swift.git", from: "0.1.2"),
-        .package(url: "https://github.com/tesseract-one/UncommonCrypto.swift", from: "0.1.3"),
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(name: "Blake2", url: "https://github.com/tesseract-one/Blake2.swift.git", from: "0.1.2"),
+        .package(name: "UncommonCrypto", url: "https://github.com/tesseract-one/UncommonCrypto.swift", from: "0.1.3"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -26,7 +24,7 @@ let package = Package(
             name: "SS58Factory",
             dependencies: ["Blake2bFool"]),
         .target(name: "Blake2bFool",
-                dependencies: ["Blake2","CBlake2","CUncommonCrypto","UncommonCrypto"]
+                dependencies: ["Blake2","UncommonCrypto"]
             ),
     ]
 )
