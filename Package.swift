@@ -28,7 +28,7 @@ let package = Package(
         .target(name: "Blake2bFool",
                 dependencies: ["Blake2","UncommonCrypto"]
             ),
-        .target(name: "Scrypt"),
+        .target(name: "Scrypt",dependencies: ["scrypt"]),
         .testTarget(
             name: "SS58FactoryTests",
             dependencies: ["SS58Factory"]),
