@@ -12,7 +12,7 @@ let package = Package(
             targets: ["SS58Factory"]),
         .library(name: "Blake2bFactory",
             targets: ["Blake2bFool"]),
-        .library(name: "SubstrateScrypt", targets: ["Scrypt"])
+        .library(name: "SubstrateScrypt", targets: ["SubstrateScrypt"])
     ],
     dependencies: [
         .package(name: "scrypt", url: "https://github.com/v57/scrypt.c.git", from: "0.1.1"),
@@ -24,10 +24,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SS58Factory",
-            dependencies: ["Blake2bFool","Scrypt"]),
+            dependencies: ["Blake2bFool","SubstrateScrypt"]),
         .target(name: "Blake2bFool",
                 dependencies: ["Blake2","UncommonCrypto"]
             ),
-        .target(name: "Scrypt",dependencies: ["scrypt"]),
+        .target(name: "SubstrateScrypt",dependencies: ["scrypt"]),
     ]
 )
