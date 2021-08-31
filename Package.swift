@@ -11,9 +11,11 @@ let package = Package(
             name: "SS58AddressFactory",
             targets: ["SS58Factory"]),
         .library(name: "Blake2bFactory",
-            targets: ["Blake2bFool"])
+            targets: ["Blake2bFool"]),
+        .library(name: "Scrypt", targets: ["Scrypt"])
     ],
     dependencies: [
+        .package(name: "scrypt", url: "https://github.com/v57/scrypt.c.git", from: "0.1.1")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
@@ -25,6 +27,7 @@ let package = Package(
             dependencies: ["Blake2bFool"]),
         .target(name: "Blake2bFool"
             ),
+        .target(name: "Scrypt"),
         .testTarget(
             name: "SS58FactoryTests",
             dependencies: ["SS58Factory"]),
