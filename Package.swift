@@ -12,7 +12,7 @@ let package = Package(
             targets: ["SS58Factory"]),
         .library(name: "Blake2bFactory",
             targets: ["Blake2bFool"]),
-        .library(name: "Scrypt", targets: ["Scrypt"])
+        .library(name: "SubstrateScrypt", targets: ["Scrypt"])
     ],
     dependencies: [
         .package(name: "scrypt", url: "https://github.com/v57/scrypt.c.git", from: "0.1.1"),
