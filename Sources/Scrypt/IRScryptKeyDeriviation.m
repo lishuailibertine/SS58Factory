@@ -6,7 +6,7 @@
 //
 
 #import "IRScryptKeyDeriviation.h"
-#import "scrypt.h"
+#include "scrypt.h"
 
 static const NSUInteger MEMORY_COST = 16384;
 static const NSUInteger PARALELIZATION_FACTOR = 1;
