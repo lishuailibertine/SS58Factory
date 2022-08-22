@@ -55,7 +55,7 @@ static const UniChar base58chars[] = {
 }
 + (NSData *)Sha2256:(NSData*)data {
     NSMutableData *d = [NSMutableData dataWithLength:CC_SHA256_DIGEST_LENGTH];
-    CC_SHA256(data.bytes, data.length, d.mutableBytes);
+    CC_SHA256(data.bytes, (CC_LONG)data.length, d.mutableBytes);
     return d;
 }
 - (NSData *)base58ToData {

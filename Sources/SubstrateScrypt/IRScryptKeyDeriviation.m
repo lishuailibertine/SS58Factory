@@ -14,8 +14,8 @@ static const NSUInteger BLOCK_SIZE = 8;
 
 @implementation IRScryptKeyDeriviation
 
-- (nullable NSData*)deriveKeyFrom:(NSData *)password
-                             salt:(NSData *)salt
+- (nullable NSData*)deriveKeyFrom:(nonnull NSData *)password
+                             salt:(nonnull NSData *)salt
                            length:(NSUInteger)length
                             error:(NSError*_Nullable*_Nullable)error {
     return [self deriveKeyFrom:password

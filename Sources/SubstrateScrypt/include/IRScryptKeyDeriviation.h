@@ -12,8 +12,8 @@ typedef NS_ENUM(NSUInteger, IRScryptKeyDeriviationError) {
 
 @interface IRScryptKeyDeriviation : NSObject
 
-- (nullable NSData*)deriveKeyFrom:(NSData *)password
-                             salt:(NSData *)salt
+- (nullable NSData*)deriveKeyFrom:(nonnull NSData *)password
+                             salt:(nonnull NSData *)salt
                            length:(NSUInteger)length
                             error:(NSError*_Nullable*_Nullable)error;
 
