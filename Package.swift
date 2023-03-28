@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "scrypt", url: "https://github.com/v57/scrypt.c.git", from: "0.1.1"),
-        .package(name: "Blake2", url: "https://github.com/tesseract-one/Blake2.swift.git", from: "0.1.2"),
+        .package(name: "Blake2", url: "https://github.com/lishuailibertine/Blake2.swift", from: "0.1.3"),
         .package(name: "UncommonCrypto", url: "https://github.com/lishuailibertine/UncommonCrypto.swift", from: "0.1.4"),
     ],
     targets: [
